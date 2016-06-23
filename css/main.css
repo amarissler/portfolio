@@ -1,0 +1,147 @@
+
+/* index.html ------------------------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 220px;
+  font-family: 'Lora', serif;
+  background: #fff;
+}
+.features .glyphicon {
+  font-size: 32px;
+}
+
+h1{
+  weight: bold 700;
+  text-align: center;
+}
+
+h4{
+  text-align: left;
+}
+button {
+  background-color: #FFDE17;
+  align-self: baseline;
+  color: #55a5ee;
+  font-weight: 700;
+}
+
+ul {
+  text-align: left;
+}
+
+/* Navigation -------------------------------------------------- */
+.navbar {
+  background-color:#FF7E74;
+  height:55px;
+}
+.navbar a {
+  color: white;
+  font-size: 2em;
+  background-color: #FF7E74;
+}
+
+.navbar a:hover {
+  color: #FFDE17;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  background-color: white;
+  color: #FF7E74;
+}
+.navbar-toggle .icon-bar {
+  background-color: #d8e6f3;
+  color: white;
+
+}
+@media only screen and (max-width: 750px) {
+  .dropdown-menu>li>a {
+    color: #d8e6f3;
+  }
+}
+/* Header -------------------------------------------------- */
+.header img {
+  width: 100%;
+  margin-top: -2em;
+}
+/* Contact -------------------------------------------------- */
+/*#contact {
+  background-image: url('images/section.jpg');
+}*/
+.contact_info ul li {
+  font-size: 2em;
+}
+.contact_info h1 {
+  font-size: 4em;
+}
+
+.contact_info p{
+  font-size: 4em;
+}
+
+#contact {
+  background-image: url("images/section.jpg");
+  text-align: center;
+  background-size: cover;
+}
+
+/* About Me -------------------------------------------------- */
+#about {
+  text-align: center;
+  background-color: white;
+}
+/* Strengths -------------------------------------------------- */
+#strengths{
+  text-align: center;
+}
+/* Schools -------------------------------------------------- */
+#schools{
+
+}
+#schools h1{
+  text-align: center;
+}
+/* Portfolio -------------------------------------------------- */
+#code{
+    text-align: center;
+}
+/* Stack -------------------------------------------------- */
+#stack{
+
+}
+/* Sticky footer styles -------------------------------------------------- */
+.footer {
+  /*position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px;
+  background-color: #FF7E74;
+  color: #efefef;
+}
+@media only screen and (max-width: 768px) {
+  body { margin-bottom: 400px; }
+  .footer { height: 300px; }
+}
+.footer a {
+  color: ##3B3736;
+}
+.footer a:visited {
+  color: #3B3736;
+}
+.footer a:hover {
+  color: #3B3736;
+}
+.footer a:active{
+  color: #3B3736;
+}

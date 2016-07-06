@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "description": "Amanda's Portfolio ",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
